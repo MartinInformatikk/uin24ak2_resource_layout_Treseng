@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeidskrav 2</title>
+    <link href="stylesheet.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><button class="button" id="HTML" onclick="updateMainContent(0, 'HTML')">HTML</button></li>
+                <li><button class="button" id="CSS" onclick="updateMainContent(1, 'CSS')">CSS</button></li>
+                <li><button class="button" id="JS" onclick="updateMainContent(2, 'JS')">JavaScript</button></li>
+                <li><button class="button" id="React" onclick="updateMainContent(3, 'React')">React</button></li>
+                <li><button class="button" id="Sanity" onclick="updateMainContent(4, 'Sanity')">Sanity and headless CMS</button></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h1 id="category"></h1>
+                <p id="text"></p>
+                <ul id="sourcesList">  
+                </ul>
+            </section>
+        </main>
+    </div>   
+
+<script src="ressurser.js"></script>
+</body>
+</html>
